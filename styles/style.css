@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* Desktop - 1 */
+
+
+body{
+    height: 2500px;
+    width: 100vw;
+    overflow-x: hidden;
+    
+    background-color: #F7F2F2;
+
+}
+
+
+.logo{
+    position: absolute;
+    width: 713px;
+    height: 300px;
+    left: 5px;
+    top: 6px;
+}
+
+/* Barra de navegação */
+.navigation{
+    position: relative;
+    right: 40px;
+    bottom: 10px;
+    cursor: pointer;
+}
+
+.navigation :hover{
+    color: rgb(90, 89, 89);
+}
+
+/* SobreMim */
+.about{
+    position: absolute;
+    width: 84px;
+    height: 24px;
+    left: 720px;
+    top: 89px;
+    word-spacing: normal;
+    
+
+
+    font-family: 'Cabin', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0E0B16;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.09);
+}
+
+
+.about img{
+    display: flex;
+    position: relative;
+    transform: rotate(270deg);
+    height: 35px;
+    width: 35px;
+    right: 118px;
+    bottom: 8px;
+    border-radius: 0px;
+}
+
+
+/* Portfolio */
+
+.portfolio{
+    display: flex;
+    position: absolute;
+    width: 73px;
+    height: 24px;
+    left: 880px;
+    top: 89px;
+
+    font-family: 'Cabin', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0E0B16;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.09);
+}
+
+.portfolio img{
+    display: flex;
+    position: relative;
+    transform: rotate(270deg);
+    height: 42,78px;
+    width: 42px;
+    right: 113px;
+    border-radius: 0px;
+}
+
+/* Links */
+.links{
+    display: flex;
+    position: absolute;
+    width: 73px;
+    height: 24px;
+    left: 1019px;
+    top: 89px;
+
+    font-family: 'Cabin', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0E0B16;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.09);
+}
+
+.links img{
+    transform: rotate(270deg);
+    display: flex;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    right: 78px;
+}
+
+/* Contact me */
+.contact{
+    display: flex;
+    position: absolute;
+    width: 99px;
+    height: 24px;
+    left: 1190px;
+    top: 89px;
+
+    font-family: 'Cabin', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0E0B16;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.09);
+}
+
+.contact img{
+    display: flex;
+    transform: rotate(270deg);
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: 102px;
+}
+
+/* Container principal */
+
+.banner img{
+    display: inline-block;
+    position: absolute;
+    width: 100vw;
+    height: 400px;
+    left: 0px;
+    top: 258px;
+}
+
+.retanguloPrincipal{
+    position: relative;
+    width: 564px;
+    height: 35px;
+    left: 131px;
+    top: 450px;
+
+    font-family: 'DM Mono', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;       
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: flex-start;
+
+    color: #0E0B16;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.09);
+}
+
+.am{
+    position: relative;
+    margin-bottom: 60px;
+    right: 30px;    
+}
+
+.nome article{
+    bottom: 60px;
+    position: relative;
+    right: 30px;  
+    font-size: 26px;
+    display: inline-block;
+    
+}
+
+/* Botão */
+.retanguloPrincipal .apresent{
+    position: relative;
+    bottom: 55px;
+}
+
+.retanguloPrincipal button{
+    font-family: 'DM Mono', monospace;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    width: 223px;
+    height: 58px;
+    top: 100px;
+    border-radius: 8px;
+    border: none;
+
+    background: #0E0B16;
+}
+
+button img{
+    padding-left: 5px;
+}
+
+
+
+
+
+.workret{
+    position: absolute;
+    width: 1124px;
+    height: 2px;
+    left: 242px;
+    top: 716px;
+
+    background: #c4c4c4;
+}
+
+.myWork{
+    position: absolute;
+    width: 126px;
+    height: 39px;
+    left: 115px;
+    top: 693px;
+
+    font-family: 'DM Mono', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 39px;
+/* identical to box height */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.cards{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 680px;
+    margin-left: 86px;
+    margin-right: 85px;    
+    
+
+    font-family: 'DM Mono', monospace;
+}
+
+.item{
+    text-align:center;
+    padding:30px;
+    background-color:#fff;
+    margin-bottom:30px;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+    top: 50px;
+    border-radius: 13px;
+    display: block;
+    width: 100%;
+
+}
+
+.name{
+    font-weight:bold;
+    margin-top:28px;
+    margin-bottom:8px;
+    color:inherit;
+}
+
+.title{
+    text-transform:uppercase;
+    font-weight:bold;
+    color:#d0d0d0;
+    letter-spacing:2px;
+    font-size:13px;
+}
+
+.description{
+    font-size:15px;
+    margin-top:15px;
+    margin-bottom:20px;
+}
+
+.item img{
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    position: relative;
+    left: 75px;
+
+    height: 80px;
+    width: 75px !important;
+
+}
+
+
+
+
+
+
